@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply py-2 px-4 rounded-lg bg-zinc-200 border-zinc-400 hover:border-zinc-900;
+}
+
+.input:focus{
+    @apply border-zinc-900 ring-slate-300;
+}
+
+button{
+    @apply flex items-center hover:bg-zinc-400 p-2 rounded-lg;
+}
